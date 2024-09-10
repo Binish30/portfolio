@@ -6,17 +6,16 @@ import Resume from "./components/resume/Resume";
 import Contacts from "./components/contacts/Contacts";
 import Footer from "./components/footer/Footer";
 
-
 function App() {
   return (
-    <div className="w-full h-auto bg-bodyColor text-lightText">
-      <div className="max-w-screen-2x1 mx-auto px-16">
+    <div className="w-full h-auto bg-bodyColor text-lightText px-4">
       <Navbar />
-      <Banner />
-      <Features />
-      <Resume />
-      <Contacts />
-      <Footer />
+      <div className="max-w-screen-xl mx-auto">
+        <Banner />
+        <Features />
+        <Resume />
+        <Contacts />
+        <Footer />
       </div>
     </div>
   );
