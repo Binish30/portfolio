@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 import { Link } from "react-scroll";
+import { MdClose } from "react-icons/md";
 import resume from "./Binish Rawal Resume.pdf";
 import { FiMenu } from "react-icons/fi";
 
@@ -77,6 +78,12 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
+              <span
+                onClick={() => setShowMenu(false)}
+                className="absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
+              >
+                <MdClose />
+              </span>
             </div>
           </div>
         )}
