@@ -43,13 +43,13 @@ const Skills = () => {
         <SkillItem
           icon={FaJs}
           label="JavaScript"
-          level={70}
+          level={80}
           iconColor="text-yellow-500"
         />
         <SkillItem
           icon={FaPython}
           label="Python"
-          level={40}
+          level={30}
           iconColor="text-[#306998]"
         />
       </div>
@@ -67,7 +67,7 @@ const Skills = () => {
         <SkillItem
           icon={SiMysql}
           label="MySQL"
-          level={100}
+          level={30}
           iconColor="text-orange-500"
         />
         <SkillItem
@@ -87,22 +87,22 @@ const Skills = () => {
       {/* Third Column */}
       <div className="flex flex-col items-start gap-8 border-b-4 md:border-b-0 lg:border-r-4 border-dotted border-gray-300 px-4 py-4">
         <SectionTitle icon={SiFramework} title="Frameworks and Tools" />
-        <SkillItem icon={SiReact} label="ReactJS" level={95} />
+        <SkillItem icon={SiReact} label="ReactJS" level={85} />
         <SkillItem
           icon={SiNodedotjs}
           label="NodeJS"
-          level={80}
+          level={70}
           iconColor="text-lightgreen"
         />
-        <SkillItem icon={SiExpress} label="ExpressJS" level={80} />
+        <SkillItem icon={SiExpress} label="ExpressJS" level={70} />
         <SkillItem
           icon={SiPostman}
           label="Postman"
-          level={75}
+          level={60}
           iconColor="text-halloweenorange"
         />
         <SkillItem icon={FaGithub} label="Github" level={80} />
-        <SkillItem icon={SiDjango} label="Django" level={60} />
+        <SkillItem icon={SiDjango} label="Django" level={30} />
         <SkillItem
           icon={SiVisualstudiocode}
           label="Visual Studio Code"
@@ -111,7 +111,7 @@ const Skills = () => {
         <SkillItem
           icon={SiBootstrap}
           label="Bootstrap"
-          level={40}
+          level={70}
           iconColor="text-purple-600"
         />
       </div>
@@ -119,9 +119,9 @@ const Skills = () => {
       {/* Fourth Column */}
       <div className="flex flex-col items-start gap-8 px-4 py-4">
         <SectionTitle icon={FaCog} title="Others" />
-        <SkillItem icon={SiHtml5} label="HTML5" level={95} />
-        <SkillItem icon={FaDocker} label="Docker" level={80} />
-        <SkillItem icon={FaPlug} label="RESTful APIs" level={80} />
+        <SkillItem icon={SiHtml5} label="HTML5" level={75} />
+        <SkillItem icon={FaDocker} label="Docker" level={40} />
+        <SkillItem icon={FaPlug} label="RESTful APIs" level={70} />
         <SkillItem icon={SiCss3} label="CSS3" level={75} />
       </div>
     </motion.div>
