@@ -1,7 +1,8 @@
 import React from "react";
 import Title from "../layouts/Title";
 import {
- todolist
+ todolist,
+ weatherapp
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -22,7 +23,7 @@ const Projects = () => {
           title="To Do List"
           des={
             <p>
-              I built a dynamic To-Do List{" "}
+              I have built a dynamic To-Do List{" "}
               <span className="text-designColor font-bold">
               using React, JavaScript, and CSS,
               </span>{" "}
@@ -34,6 +35,24 @@ const Projects = () => {
           src={todolist}
           github="https://github.com/Binish30/To-Do-List"
           live="https://todo-listapplication.vercel.app/s"
+        />
+
+        <ProjectsCard
+          title="Weather Application"
+          des={
+            <p>
+              The Weather App is a React-based single-page application that utilizes{" "}
+              <span className="text-designColor font-bold">
+              Axios for asynchronous API 
+              </span>{" "}
+              requests to OpenWeatherMap
+              <span className="text-designColor font-bold"> useState and CSS</span>, I
+              employs environment variables for secure API key management, and is styled with modular CSS for a responsive design.
+            </p>
+          }
+          src={weatherapp}
+          github="https://github.com/Binish30/Weather-App"
+          live="https://climatracker.vercel.app/"
         />
       </div>
     </section>
