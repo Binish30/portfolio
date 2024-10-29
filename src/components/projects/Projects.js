@@ -2,7 +2,8 @@ import React from "react";
 import Title from "../layouts/Title";
 import {
  todolist,
- weatherapp
+ weatherapp,
+ cricketscoretracker
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -53,6 +54,18 @@ const Projects = () => {
           src={weatherapp}
           github="https://github.com/Binish30/Weather-App"
           live="https://climatracker.vercel.app/"
+        />
+        <ProjectsCard
+          title="Simple Cricket Score Tracker"
+          des={
+            <p>
+              Developed an interactive web application to track cricket scores, displaying runs per ball and total scores for a user-defined number of overs. Built using{" "}
+              <span className="text-designColor font-bold">  HTML, CSS and JavaScript </span>, for responsive design
+            </p>
+          }
+          src={cricketscoretracker}
+          github="https://github.com/Binish30/cricket-score-tracker"
+          live="https://simple-cricket-score-tracker.vercel.app/"
         />
       </div>
     </section>
