@@ -11,7 +11,7 @@ const Banner = () => {
       <LeftBanner />
       <RightBanner />
     </section>
-  );
+  );  
 };
 
 export default Banner;

@@ -3,7 +3,8 @@ import Title from "../layouts/Title";
 import {
  todolist,
  weatherapp,
- cricketscoretracker
+ cricketscoretracker,
+ tictactoe
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -55,6 +56,7 @@ const Projects = () => {
           github="https://github.com/Binish30/Weather-App"
           live="https://climatracker.vercel.app/"
         />
+        
         <ProjectsCard
           title="Simple Cricket Score Tracker"
           des={
@@ -66,6 +68,19 @@ const Projects = () => {
           src={cricketscoretracker}
           github="https://github.com/Binish30/cricket-score-tracker"
           live="https://simple-cricket-score-tracker.vercel.app/"
+        />
+
+        <ProjectsCard
+          title="Tic Tac Toe"
+          des={
+            <p>
+              A dynamic Tic Tac Toe game developed using{" "}
+              <span className="text-designColor font-bold">   React, JavaScript, and CSS </span>, , offering both single-player and two-player modes for an engaging classic gameplay experience.
+            </p>
+          }
+          src={tictactoe}
+          github="https://github.com/Binish30/Tic-Tac-Toe"
+          live="https://multiplayer-tic-tac-to-game.vercel.app/"
         />
       </div>
     </section>
