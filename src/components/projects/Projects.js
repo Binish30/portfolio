@@ -75,7 +75,7 @@ const Projects = () => {
           des={
             <p>
               A dynamic Tic Tac Toe game developed using{" "}
-              <span className="text-designColor font-bold">   React, JavaScript, and CSS </span>, , offering both single-player and two-player modes for an engaging classic gameplay experience.
+              <span className="text-designColor font-bold">   React, JavaScript, and CSS </span>, offering both single-player and two-player modes for an engaging classic gameplay experience.
             </p>
           }
           src={tictactoe}
