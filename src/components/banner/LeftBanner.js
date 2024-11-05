@@ -28,7 +28,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        🚀 Hello! As your dedicated tech partner, I'm here to turn ambitious ideas into innovative software solutions. Whether it’s crafting responsive web applications with ReactJS, NodeJS, and MongoDB or tackling complex challenges, my focus is on creating seamless, intuitive user experiences.
+        Hello! As your dedicated tech partner, I'm here to turn ambitious ideas into innovative software solutions. Whether it’s crafting responsive web applications with ReactJS, NodeJS, and MongoDB or tackling complex challenges, my focus is on creating seamless, intuitive user experiences.
           <br />
           <br />
           💼 My journey spans from India’s tech giants to Germany’s forward-thinking firms, where I've honed an eye for optimizing performance and delivering results you can count on. From swift bug fixes to efficient operations, I’m here to add precision and reliability to your project.
