@@ -142,7 +142,9 @@ const SkillItem = ({
   iconSize = 25,
   iconColor = "text-blue-600",
 }) => (
-  <div className="flex items-center justify-between mb-4 w-full h-12"> {/* Ensuring uniform height */}
+  <div className="flex items-center justify-between mb-4 w-full h-12">
+    {" "}
+    {/* Ensuring uniform height */}
     <div className="flex items-center">
       <Icon className={`${iconColor} mr-2`} size={iconSize} />
       <p className="text-sm uppercase font-medium">{label}</p>

@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
 
 const Education = () => {
   return (
     <motion.div
-        initial={{ opacity:0 }}
-        animate={{ opacity:1, transition: { duration: 0.5 }}}
-        className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20">
-
-        {/* part one - Job Experience */}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.5 } }}
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
+    >
+      {/* part one - Job Experience */}
       <div className="flex-1">
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4 pl-12">
           <p className="text-sm text-designColor tracking-[4px]">2018 - 2024</p>
@@ -45,25 +45,28 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full flex flex-col gap-10">
           <ResumeCard
-          title="Masters of Science in Applied Computer Science(M.Sc.)"
-          subTitle="SRH Hochschule Heidelberg (2021-2023)"
-          location="Germany"
-          result="2.7/5.0"
-          des="Graduated with a Master's degree in Applied Computer Science from SRH Heidelberg, equipped with specialized knowledge and practical skills to excel in tackling complex challenges in web development." />
+            title="Masters of Science in Applied Computer Science(M.Sc.)"
+            subTitle="SRH Hochschule Heidelberg (2021-2023)"
+            location="Germany"
+            result="2.7/5.0"
+            des="Graduated with a Master's degree in Applied Computer Science from SRH Heidelberg, equipped with specialized knowledge and practical skills to excel in tackling complex challenges in web development."
+          />
 
           <ResumeCard
-          title="Bachelors of Engineering in Information Technology(B.E.)"
-          subTitle="Shah and Anchor Kutchhi Engineering College (University of Mumbai) (2015-2018)"
-          location="India"
-          result="6.91/10.00"
-          des="Obtained a Bachelor's degree in Information Technology from Shah and Anchor Kutchhi Engineering College (University of Mumbai) , building a strong foundation of knowledge and skills, and well-prepared to thrive in web development." />
+            title="Bachelors of Engineering in Information Technology(B.E.)"
+            subTitle="Shah and Anchor Kutchhi Engineering College (University of Mumbai) (2015-2018)"
+            location="India"
+            result="6.91/10.00"
+            des="Obtained a Bachelor's degree in Information Technology from Shah and Anchor Kutchhi Engineering College (University of Mumbai) , building a strong foundation of knowledge and skills, and well-prepared to thrive in web development."
+          />
 
           <ResumeCard
-          title="Diploma in Computer Technology"
-          subTitle="Sardar Vallabhbhai Patel Polytechnic (Maharashtra State Board of Technical Education) (2012-2015)"
-          location="India"
-          result="73.76%"
-          des="Achieved a diploma in Computer Technology from Sardar Vallabhbhai Patel Polytechnic, Maharashtra State Board of Technical Education, developing a solid base in programming and development expertise."/>
+            title="Diploma in Computer Technology"
+            subTitle="Sardar Vallabhbhai Patel Polytechnic (Maharashtra State Board of Technical Education) (2012-2015)"
+            location="India"
+            result="73.76%"
+            des="Achieved a diploma in Computer Technology from Sardar Vallabhbhai Patel Polytechnic, Maharashtra State Board of Technical Education, developing a solid base in programming and development expertise."
+          />
         </div>
       </div>
     </motion.div>

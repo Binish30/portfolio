@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const FooterBottom = () => {
-    const year = new Date();
+  const year = new Date();
 
   return (
     <div className="w-full py-10">
@@ -10,6 +10,6 @@ const FooterBottom = () => {
       </p>
     </div>
   );
-}
+};
 
-export default FooterBottom
+export default FooterBottom;
