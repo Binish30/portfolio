@@ -6,10 +6,10 @@ import cricketscoretracker from "./images/projects/cricketscoretracker.png";
 import tictactoe from "./images/projects/tictactoe.png";
 
 export {
-    bannerImg,
-    logo,
-    todolist,
-    weatherapp,
-    cricketscoretracker,
-    tictactoe,
+  bannerImg,
+  logo,
+  todolist,
+  weatherapp,
+  cricketscoretracker,
+  tictactoe,
 };
