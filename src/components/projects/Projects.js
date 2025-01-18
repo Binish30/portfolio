@@ -1,10 +1,11 @@
 import React from "react";
 import Title from "../layouts/Title";
 import {
- todolist,
- weatherapp,
- cricketscoretracker,
- tictactoe
+  todolist,
+  weatherapp,
+  cricketscoretracker,
+  tictactoe,
+  briyanicenter,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -27,11 +28,14 @@ const Projects = () => {
             <p>
               I have built a dynamic To-Do List{" "}
               <span className="text-designColor font-bold">
-              using React, JavaScript, and CSS,
+                using React, JavaScript, and CSS,
               </span>{" "}
               and
-              <span className="text-designColor font-bold"> useState and React Icons</span>, I
-              featuring task and subtask management with a clean UI.
+              <span className="text-designColor font-bold">
+                {" "}
+                useState and React Icons
+              </span>
+              , I featuring task and subtask management with a clean UI.
             </p>
           }
           src={todolist}
@@ -43,26 +47,37 @@ const Projects = () => {
           title="Weather Application"
           des={
             <p>
-              The Weather App is a React-based single-page application that utilizes{" "}
+              The Weather App is a React-based single-page application that
+              utilizes{" "}
               <span className="text-designColor font-bold">
-              Axios for asynchronous API 
+                Axios for asynchronous API
               </span>{" "}
               requests to OpenWeatherMap
-              <span className="text-designColor font-bold"> useState and CSS</span>, I
-              employs environment variables for secure API key management, and is styled with modular CSS for a responsive design.
+              <span className="text-designColor font-bold">
+                {" "}
+                useState and CSS
+              </span>
+              , I employs environment variables for secure API key management,
+              and is styled with modular CSS for a responsive design.
             </p>
           }
           src={weatherapp}
           github="https://github.com/Binish30/Weather-App"
           live="https://climatracker.vercel.app/"
         />
-        
+
         <ProjectsCard
           title="Simple Cricket Score Tracker"
           des={
             <p>
-              Developed an interactive web application to track cricket scores, displaying runs per ball and total scores for a user-defined number of overs. Built using{" "}
-              <span className="text-designColor font-bold">  HTML, CSS and JavaScript </span>, for responsive design
+              Developed an interactive web application to track cricket scores,
+              displaying runs per ball and total scores for a user-defined
+              number of overs. Built using{" "}
+              <span className="text-designColor font-bold">
+                {" "}
+                HTML, CSS and JavaScript{" "}
+              </span>
+              , for responsive design
             </p>
           }
           src={cricketscoretracker}
@@ -75,12 +90,35 @@ const Projects = () => {
           des={
             <p>
               A dynamic Tic Tac Toe game developed using{" "}
-              <span className="text-designColor font-bold">   React, JavaScript, and CSS </span>, offering both single-player and two-player modes for an engaging classic gameplay experience.
+              <span className="text-designColor font-bold">
+                {" "}
+                React, JavaScript, and CSS{" "}
+              </span>
+              , offering both single-player and two-player modes for an engaging
+              classic gameplay experience.
             </p>
           }
           src={tictactoe}
           github="https://github.com/Binish30/Tic-Tac-Toe"
           live="https://multiplayer-tic-tac-to-game.vercel.app/"
+        />
+
+        <ProjectsCard
+          title="Briyani Center"
+          des={
+            <p>
+              Build responsive Briyani resturant website using{" "}
+              <span className="text-designColor font-bold">
+                {" "}
+                React and Tailwind CSS{" "}
+              </span>
+              , eaturing smooth navigation, a clean layout, and integrated
+              darkmode and lightmode.
+            </p>
+          }
+          src={briyanicenter}
+          github="https://github.com/Binish30/Food_Website"
+          live="https://briyani-center.vercel.app/"
         />
       </div>
     </section>

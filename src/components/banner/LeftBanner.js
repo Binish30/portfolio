@@ -28,13 +28,22 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        👋 Hello! I'm here to bring fresh ideas and practical solutions to your tech projects. With experience in building responsive web applications using ReactJS, NodeJS, and MongoDB, I focus on creating user-friendly and functional digital experiences.
+          👋 Hello! I'm here to bring fresh ideas and practical solutions to
+          your tech projects. With experience in building responsive web
+          applications using ReactJS, NodeJS, and MongoDB, I focus on creating
+          user-friendly and functional digital experiences.
           <br />
           <br />
-          💼 With experience in two continents—India and Europe—I’ve developed practical skills in improving application performance, solving issues, and streamlining workflows. I’m ready to put this background to work and provide dependable support for your project.
+          💼 With experience in two continents—India and Europe—I’ve developed
+          practical skills in improving application performance, solving issues,
+          and streamlining workflows. I’m ready to put this background to work
+          and provide dependable support for your project.
           <br />
           <br />
-          🤝 I enjoy collaborating closely to bring ideas to life, and I’m passionate about turning concepts into dependable software solutions. Let’s work together to make your project stand out in the digital world!
+          🤝 I enjoy collaborating closely to bring ideas to life, and I’m
+          passionate about turning concepts into dependable software solutions.
+          Let’s work together to make your project stand out in the digital
+          world!
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
