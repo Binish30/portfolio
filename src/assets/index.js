@@ -5,6 +5,8 @@ import weatherapp from "./images/projects/weatherapp.png";
 import cricketscoretracker from "./images/projects/cricketscoretracker.png";
 import tictactoe from "./images/projects/tictactoe.png";
 import briyanicenter from "./images/projects/briyanicenter.png";
+import simongame from "./images/projects/simongame.png";
+import folderstructure from "./images/projects/folderstructure.png";
 import stordis from "./images/Stordis.png";
 import msbte from "./images/MSBTE.png";
 import shahandanchor from "./images/Shah&Anchor.png";
@@ -19,6 +21,8 @@ export {
   cricketscoretracker,
   tictactoe,
   briyanicenter,
+  simongame,
+  folderstructure,
   shahandanchor,
   srh,
   tata,

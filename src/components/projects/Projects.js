@@ -6,6 +6,8 @@ import {
   cricketscoretracker,
   tictactoe,
   briyanicenter,
+  simongame,
+  folderstructure,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -119,6 +121,40 @@ const Projects = () => {
           src={briyanicenter}
           github="https://github.com/Binish30/Food_Website"
           live="https://briyani-center.vercel.app/"
+        />
+
+<ProjectsCard
+          title="Simon Game"
+          des={
+            <p>
+              Developed a Simon Game,
+              featuring responsive design and interactive sound effects on button clicks and game over{" "}
+              <span className="text-designColor font-bold">
+                {" "}
+                HTML, CSS and JavaScript{" "}
+              </span>
+            </p>
+          }
+          src={simongame}
+          github="https://github.com/Binish30/simon-game"
+          live="https://gamesimon.vercel.app/"
+        />
+
+<ProjectsCard
+          title="Folder Structure"
+          des={
+            <p>
+              Developed a dynamic folder structure,
+              allowing users to create, edit, delete, and toggle folders/files from a JSON tree with proper indentation using{" "}
+              <span className="text-designColor font-bold">
+                {" "}
+                React, HTML, CSS, and JavaScript{" "}
+              </span>
+            </p>
+          }
+          src={folderstructure}
+          github="https://github.com/Binish30/Folder-Structure"
+          live="https://folder-structure-green.vercel.app/"
         />
       </div>
     </section>

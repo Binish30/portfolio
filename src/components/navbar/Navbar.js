@@ -1,13 +1,31 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 import { Link } from "react-scroll";
 import { MdClose } from "react-icons/md";
-import resume from "./Binish Rawal Resume.pdf";
+//import resume from "./Binish Rawal Resume.pdf";
 import { FiMenu } from "react-icons/fi";
+import axios from "axios";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [resumeURL, setResumeURL] = useState("");
+
+  useEffect(() => {
+    axios.get("https://ipapi.co/json/")
+      .then((response) => {
+        const country = response.data.country_code;
+
+        if(country === "IN") {
+          setResumeURL("/resume/Binish Rawal CV.pdf");
+        } else {
+          setResumeURL("/resume/Binish Rawal Resume.pdf");
+        }
+      })
+      .catch((error) => {
+        console.error("Error fetching IP location:",error);
+      });
+  }, []);
 
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
@@ -39,7 +57,8 @@ const Navbar = () => {
         </ul>
         <div className="flex">
           <div className="flex">
-            <a href={resume} target="_blank" rel="noreferrer">
+            {/* <a href={resume} target="_blank" rel="noreferrer"> */}
+            <a href={resumeURL} download rel="noreferrer">
               <button className="flex items-center justify-center md:w-40 md:h-12 md:font-normal md:text-base w-24 h-10 text-xs bg-designColor mx-6 text-white rounded-xl">
                 Download Resume
               </button>
