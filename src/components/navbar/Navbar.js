@@ -17,9 +17,9 @@ const Navbar = () => {
         const country = response.data.country_code;
 
         if(country === "IN") {
-          setResumeURL("/resume/Binish Rawal CV.pdf");
-        } else {
           setResumeURL("/resume/Binish Rawal Resume.pdf");
+        } else {
+          setResumeURL("/resume/Binish Rawal CV.pdf");
         }
       })
       .catch((error) => {
