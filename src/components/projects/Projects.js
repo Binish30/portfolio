@@ -1,13 +1,14 @@
 import React from "react";
 import Title from "../layouts/Title";
 import {
+  online_shopping_portal,
   todolist,
   weatherapp,
   cricketscoretracker,
   tictactoe,
   briyanicenter,
   simongame,
-  folderstructure,
+  // folderstructure,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -24,6 +25,25 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <ProjectsCard
+          title="Online Shopping Portal"
+          des={
+            <p>
+              I have built a full-stack e-commerce app built with a decoupled architecture:{" "}
+              <span className="text-designColor font-bold">
+                Django REST API (JWT auth) for the backend and React (Vite) SPA for the frontend.
+              </span>{" "}
+              and
+              <span className="text-designColor font-bold">
+                {" "}
+                Django REST API (JWT auth) for the backend and React (Vite) SPA for the frontend.
+              </span>
+            </p>
+          }
+          src={online_shopping_portal}
+          github="https://github.com/Binish30/Online-Shopping-Portal.git"
+          live="https://online-shopping-portal.vercel.app/"
+        />
         <ProjectsCard
           title="To Do List"
           des={
@@ -42,7 +62,7 @@ const Projects = () => {
           }
           src={todolist}
           github="https://github.com/Binish30/To-Do-List"
-          live="https://todo-listapplication.vercel.app/s"
+          live="https://todo-listapplication.vercel.app/"
         />
 
         <ProjectsCard
@@ -123,7 +143,7 @@ const Projects = () => {
           live="https://briyani-center.vercel.app/"
         />
 
-<ProjectsCard
+        <ProjectsCard
           title="Simon Game"
           des={
             <p>
@@ -140,7 +160,7 @@ const Projects = () => {
           live="https://gamesimon.vercel.app/"
         />
 
-<ProjectsCard
+        {/* <ProjectsCard
           title="Folder Structure"
           des={
             <p>
@@ -155,7 +175,7 @@ const Projects = () => {
           src={folderstructure}
           github="https://github.com/Binish30/Folder-Structure"
           live="https://folder-structure-green.vercel.app/"
-        />
+        /> */}
       </div>
     </section>
   );
